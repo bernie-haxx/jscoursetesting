@@ -35,6 +35,7 @@ show();
 let userRole = "admin";
 let accessLevel;
 
+// if else and else if condition statements
 if (userRole === "admin") {
     accessLevel = "Full access granted";
 } else if (userRole === "manager"){
@@ -45,6 +46,7 @@ if (userRole === "admin") {
 
 console.log("Access Level: ", accessLevel);
 
+// Nested conditional statements
 let isLoggedIn = true;
 let userMessage;
 
@@ -60,6 +62,7 @@ if (isLoggedIn) {
 
 console.log("User Message:", userMessage);
 
+// Switch statement
 let userType = "subscriber";
 let userCategory;
 
@@ -78,3 +81,10 @@ switch (userType) {
 }
 
 console.log("User Category:", userCategory);
+
+// Ternary Operator
+let isAuthenticated = true;
+
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+
+console.log("Authentication Status:", authenticationStatus);
